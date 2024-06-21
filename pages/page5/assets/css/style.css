@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(221, 171, 171); /* Make the header red */
+    padding: 10px 0;
+    box-shadow: none; /* Remove any box shadow if there is one */
+}
+
+/* Apply styles to the navigation */
+.header nav {
+    display: flex;
+    justify-content: flex-end; /* Center the nav links */
+}
+
+/* Apply styles to the navigation links */
+.header nav a {
+    color: #fff; /* Set the color of the nav links to white */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Add spacing between the nav links */
+    font-size: 25px; /* Set the font size of the nav links */
+}
+
+.header nav a:hover {
+    color: #ffcccb; /* Change color on hover to a lighter red */
+}
+
+.left-bg {
+    position: fixed;
+    top: 0;
+    left: -100px;
+    width: 50%;
+    height: 100vh;
+    background-image: url('/assets/img/hero5_bg.jpg');
+    background-size: cover;
+    background-position: left top;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.right-bg {
+    position: fixed;
+    top: 0;
+    right: -100px; /* Adjust to position the right background */
+    width: 50%; /* Cover the right half of the viewport */
+    height: 100vh;
+    background-image: url('/assets/img/hero5_rightbg.jpg');
+    background-size: cover;
+    background-position: center top; /* Adjust as needed */
+    border-radius: 50px; /* Rounded corners */
+    z-index: -1; /* Ensure it stays behind other content */
+}
+
+.title {
+        margin-left: 550px;
+        margin-top: 20px;
+        color: #ff587c;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.name {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: flex-end; /* Align items to the right */
+    position: absolute; /* Position the container absolutely */
+    right: 130px; /* Align container to the right side of the page */
+    top: 51.3%; /* Center the container vertically */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.text1 {
+    color: #ff587c;
+}
+
+.text3 {
+    color: #ff587c;
+}
+
+.text5 {
+    color: #ff587c;
+}
+
+.name div {
+    margin: 0 5px; /* Add some spacing between letters */
+}
+
+.image1 {
+    position: absolute;
+    top: 130px;
+    width: 230px; /* Set the width */
+    height: auto; /* Ensure height adjusts proportionally */
+    border: 2px solid rgb(249, 58, 122);
+    border-radius: 25px;
+    padding: 2px; /* Optional: Add padding inside the border */
+}
+
+.image2, .image3 {
+    position: absolute;
+    top: 130px;
+    width: 200px; /* Set the width */
+    height: auto; /* Ensure height adjusts proportionally */
+    border: 2px solid rgb(249, 58, 122);
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.image1 img, .image2 img, .image3 img {
+    border-radius: 25px;
+}
+
+.image1 {
+    right: 450px;
+}
+
+.image2 {
+    right: 230px;
+}
+
+.image3 {
+    right: 10px;
+}
+
+.image1 img, .image2 img, .image3 img {
+    display: block;
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.hero5-content {
+    position: absolute;
+    bottom: 70px; /* Adjust as needed to control distance from the bottom */
+    left: 280px;
+    right: 0;
+    margin: auto; /* Center horizontally */
+    width: 30%; /* Set desired width, adjust as needed */
+    background-color: rgba(255, 241, 255, 0.7);
+    border-radius: 10px;
+    padding: 13px; /* Example padding for the content box */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: box shadow for the content box */
+}
+
+.hero5-content h1 {
+    margin-bottom: 20px; /* Add margin to create space between h1 and h3 elements */
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left; /* Align text to the left */
+    color: #333; /* Set a dark color for better readability */
+}
+
+.hero5-content h3 {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.6; /* Adjust line height for better spacing */
+    margin-bottom: 10px; /* Add margin to separate h3 elements */
+    text-align: left; /* Align text to the left */
+    color: #333; /* Set a dark color for better readability */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Optional: subtle text shadow */
+}
+
+.icon {
+    position: fixed;
+    bottom: 80px; /* Adjust as needed to position the icon */
+    right: 40px; /* Adjust as needed to position the icon */
+    width: 220px; /* Adjust the size of the circular icon */
+    height: auto; /* Adjust the size of the circular icon */
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    border-radius: 50%; /* Turns the element into a circle */
+}
+
+.icon img {
+    display: block;
+    width: 100%; /* Ensures the image fills the circle */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.des1 img {
+    position: absolute;
+    top: 300px; /* Adjust as needed to position the image from the top */
+    right: 650px; /* Adjust as needed to position the image from the right */
+    width: 180px; /* Adjust the width of the image */
+}
+
+.des2 img {
+    position: absolute;
+    top: 50px; /* Adjust as needed to position the image from the top */
+    right: 5px; /* Adjust as needed to position the image from the right */
+    width: 100px;
+    transform: rotate(40deg);
+}

@@ -118,16 +118,3 @@ body {
     width: 230px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
 }
-
-.icon2 {
-    position: absolute;
-    top: 10px; /* Adjust as needed */
-    left: -10px; /* Adjust as needed */
-    z-index: -1; /* Ensure it's above other content */
-}
-
-.icon2 img {
-    display: block;
-    width: 160px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-}

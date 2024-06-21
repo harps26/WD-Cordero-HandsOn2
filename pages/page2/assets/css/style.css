@@ -8,16 +8,15 @@
     background-color: transparent;
     margin-top: 20px;
     margin-bottom: 50px;
-    box-shadow: none; /* Remove any box shadow if there is one */
+    box-shadow: none;
 }
 
-/* Apply styles to the navigation */
 .header nav {
     display: flex;
     justify-content: flex-end; /* Center the nav links */
 }
 
-/* Apply styles to the navigation links */
+
 .header nav a {
     color: #fff; /* Set the color of the nav links to white */
     text-decoration: none; /* Remove underline from links */
@@ -26,13 +25,13 @@
 }
 
 .header nav a:hover {
-    color: #ffcccb; /* Change color on hover to a lighter red */
+    color: #ffcccb;
 }
 
 body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    height: 100vh;
     background-image: url('/assets/img/hero2_bg.jpg'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
@@ -80,23 +79,103 @@ body {
 }
 
 .content img {
+    position: absolute;
     width: 150px; /* Set width to desired size */
     height: 150px; /* Set height to the same value to make it circular */
-    margin-bottom: 20px;
+    margin-bottom: 350px;
+    right: 160px;
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image covers the entire circular area */
 }
 
 .content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333; /* Text color */
+    position: absolute;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 400px;
+    right: 340px;
+    color: #ea2b2b;
+}
+
+.content h2 {
+    position: absolute;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 300px;
+    right: 370px;
+    color: #ee2929;
 }
 
 .content h3 {
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    color: #666; /* Text color */
+    position: absolute;
+    font-size: 18px;
+    width: 400px;
+    top: 320px;
+    line-height: 1.4;
+    text-align: justify;
+    color: #666;
+    margin: 0 auto; /* Center the element horizontally */
+}
+
+.card1 {
+    position: absolute;
+    bottom: -250px; /* Adjust as needed to position the image from the bottom */
+    right: 230px; /* Adjust as needed to position the image from the right */
+    width: 150px; /* Adjust the width of the image */
+    transform: rotate(-20deg); /* Tilt the image by 10 degrees counterclockwise */
+}
+
+.card1 img {
+    display: block;
+    width: 500px; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card2 {
+    position: fixed;
+    top: -300px; /* Adjust as needed to position the image from the top */
+    left: 200px; /* Adjust as needed to position the image from the left */
+    width: 150px; /* Adjust the width of the image */
+    transform: rotate(150deg);
+    z-index: -1;
+}
+
+.card2 img {
+    display: block;
+    width: 320%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.icon1 {
+    position: absolute;
+    top: 77%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    border-radius: 50%; /* Turns the element into a circle */
+    overflow: hidden; /* Ensures the image doesn't overflow */
+}
+
+.icon1 img {
+    display: block;
+    width: 100%; /* Ensure the image fills the circle */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.icon2 {
+    position: absolute;
+    top: 77%;
+    left: 60%;
+    width: 100px;
+    height: auto;
+    border-radius: 50%; /* Turns the element into a circle */
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+
+.icon2 img {
+    display: block;
+    width: 100%; /* Ensure the image fills the circle */
+    height: auto; /* Maintain aspect ratio */
 }
