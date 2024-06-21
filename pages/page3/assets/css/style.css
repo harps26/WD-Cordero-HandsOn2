@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: url('/assets/img/hero3_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.header {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 25px;
+    box-shadow: none;
+}
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.header nav a:hover {
+    color: #ffcccb;
+}
+
+.hero3-images {
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    right: 100px; /* Adjust as needed */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.hero3-1, .hero3-2, .hero3-3 {
+    margin-left: 15px; /* Adjust as needed for the gap between images */
+}
+
+.hero3-1 img, .hero3-2 img, .hero3-3 img {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+    display: block;
+}
+
+.hero3-container {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 30%; /* Full width of the page */
+}
+
+.japanese {
+    font-size: 45px;
+    font-family: Impact, sans-serif;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.hero3-content {
+    max-width: 800%; /* Adjust width of the content */
+}
+
+.desc {
+    margin-top: 20px; /* Optional: Adds space between name and description */
+}
+
+.desc h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.tape {
+    position: absolute; /* Fixes the tape position relative to the viewport */
+    bottom: -230px; /* Aligns the tape to the bottom of the viewport */
+    left: -60px; /* Aligns the tape to the left side of the viewport */
+    transform: rotate(-5deg); /* Tilt the tape slightly */
+    z-index: 999; /* Ensures the tape stays above other content */
+}
+
+.tape img {
+    width: 550px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.tape2 {
+    position: absolute;
+    top: -200px; /* Adjust as needed */
+    right: -100px; /* Adjust as needed */
+    transform: rotate(20deg);
+    z-index: -1;
+}
+
+.tape2 img {
+    display: block;
+    width: 550px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.icon1 {
+    position: absolute;
+    bottom: -20px; /* Adjust as needed */
+    right: -10px; /* Adjust as needed */
+}
+
+.icon1 img {
+    display: block;
+    width: 230px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.icon2 {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: -10px; /* Adjust as needed */
+    z-index: -1; /* Ensure it's above other content */
+}
+
+.icon2 img {
+    display: block;
+    width: 160px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
