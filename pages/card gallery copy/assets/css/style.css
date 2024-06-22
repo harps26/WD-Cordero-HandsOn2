@@ -69,7 +69,7 @@ h3 {
 
 .hero1-bg img {
     width: 80%;
-    height: 80vh; /* Adjust as necessary */
+    height: 40vh; /* Adjust as necessary */
     object-fit: cover; /* Ensure the image covers the specified dimensions without stretching */
 }
 
