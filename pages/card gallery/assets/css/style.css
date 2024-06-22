@@ -5,14 +5,14 @@
 
 .header {
     width: 100%;
-    background-color: rgb(221, 171, 171); /* Make the header red */
+    background-color: rgb(221, 171, 171);
     padding: 10px 0;
-    box-shadow: none; /* Remove any box shadow if there is one */
+    box-shadow: none;
 }
 
 .header nav {
     display: flex;
-    justify-content: flex-end; /* Center the nav links */
+    justify-content: flex-end;
 }
 
 .header nav a {
@@ -45,7 +45,7 @@
     font-size: 30px;
     margin-top: 35px;
 }
-
+/*
 .hero1-bg {
     display: flex;
     justify-content: center;
@@ -70,6 +70,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+*/
 
 .hero1-card {
     position: absolute;
@@ -77,20 +78,20 @@
     left: 190px;
     top: 280px;
     padding: 20px;
-    border: 5px solid #ccc; /* Optional: adds a border */
-    border-radius: 10px; /* Optional: adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
     width: 300px;
     height: 470px;
-    margin: 20px auto; /* Centers the card horizontally */
+    margin: 20px auto;
 }
 
 .hero1-pfp img {
-    margin-top: 50px; /* Space above the image */
+    margin-top: 50px;
     margin-bottom: 20px;
-    width: 300px; /* Adjust as needed */
-    height: auto; /* Adjust as needed */
+    width: 300px;
+    height: auto;
 }
 
 .hero1-stats{
@@ -102,10 +103,10 @@
 }
 
 .heart-icon {
-    width: 30px; /* Adjust as needed */
-    height: 30px; /* Adjust as needed */
-    margin-top: 10px; /* Space above the heart icon */
-    margin-bottom: 10px; /* Space below the heart icon */
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hero1name {
@@ -115,26 +116,26 @@
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    color: rgb(255, 255, 255); /* Change as needed to contrast with the image */
-    background-color: rgba(247, 0, 136, 0.762); /* Optional: Adds a semi-transparent background for better readability */
-    padding: 10px 10px; /* Optional: Adds some padding */
-    border-radius: 2px; /* Optional: Adds rounded corners */
+    color: rgb(255, 255, 255);
+    background-color: rgba(247, 0, 136, 0.762);
+    padding: 10px 10px;
+    border-radius: 2px;
 }
 
 .progress-bar {
     margin-top: 5px;
     width: 100%;
-    height: 25px; /* Adjust height as needed */
-    background-color: #d8d2d2; /* Light gray background */
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Hides overflow from children */
+    height: 25px; 
+    background-color: #d8d2d2;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .progress {
     height: 100%;
-    background-color: #ff6bae; /* Pink color */
-    width: 0; /* Initial width, adjust with inline style or JavaScript */
-    transition: width 0.3s ease; /* Smooth transition animation */
+    background-color: #ff6bae;
+    width: 0; 
+    transition: width 0.3s ease;
 }
 
 .hero1-heart img{
@@ -152,7 +153,7 @@
     color: #a90735;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*
 .hero2-bg {
     display: flex;
     justify-content: center;
@@ -178,7 +179,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+*/
 .hero2-card {
     position: absolute;
     right: 230px;
@@ -186,10 +187,10 @@
     width: 310px;
     height: 460px;
     background-color: rgb(31, 29, 29);
-    border: 5px solid #f4ecec; /* Optional: adds a border */
-    border-radius: 10px; /* Optional: adds rounded corners */
-    box-shadow: 0 4px 8px rgba(80, 77, 77, 0.1); /* Optional: adds a subtle shadow */
-    overflow: hidden; /* Hides overflowed content */
+    border: 5px solid #f4ecec; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(80, 77, 77, 0.1);
+    overflow: hidden;
     transform: rotate(15deg);
 }
 
@@ -251,7 +252,7 @@
 }
 
 .numba2 span {
-    display: block; /* Display each letter on a new line */
+    display: block;
 }
 
 .numba3 {
@@ -262,7 +263,7 @@
 }
 
 .numba3 span {
-    display: block; /* Display each letter on a new line */
+    display: block;
 }
 
 .numba4 {
@@ -319,7 +320,7 @@
     color: #f6b723;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*
 .hero3-bg {
     display: flex;
     justify-content: center;
@@ -345,26 +346,26 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+*/
 .hero3-card {
     position: absolute;
     left: 190px;
     top: 1820px;
     padding: 20px;
-    border: 5px solid #ccc; /* Optional: adds a border */
-    border-radius: 10px; /* Optional: adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
     width: 530px;
     height: 310px;
     left: 350px;
 }
 
 .hero3-pfp img {
-    margin-top: 50px; /* Space above the image */
+    margin-top: 50px;
     margin-bottom: 20px;
-    width: 180px; /* Adjust as needed */
-    height: auto; /* Adjust as needed */
+    width: 180px;
+    height: auto;
     z-index: 999;
 }
 
@@ -393,10 +394,10 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
-    color: rgb(244, 184, 43); /* Change as needed to contrast with the image */
-    background-color: rgba(247, 177, 0, 0.896); /* Optional: Adds a semi-transparent background for better readability */
-    padding: 8px 10px; /* Optional: Adds some padding */
-    border-radius: 2px; /* Optional: Adds rounded corners */
+    color: rgb(244, 184, 43);
+    background-color: rgba(247, 177, 0, 0.896);
+    padding: 8px 10px;
+    border-radius: 2px;
 }
 
 .id {
@@ -425,10 +426,10 @@
     top: 130px;
     left: 68%;
     transform: translateX(-50%);
-    color: rgb(244, 184, 43); /* Change as needed to contrast with the image */
-    background-color: rgba(247, 177, 0, 0.896); /* Optional: Adds a semi-transparent background for better readability */
-    padding: 2px 160px; /* Optional: Adds some padding */
-    border-radius: 20px; /* Optional: Adds rounded corners */
+    color: rgb(244, 184, 43);
+    background-color: rgba(247, 177, 0, 0.896);
+    padding: 2px 160px;
+    border-radius: 20px;
     font-size: 1px;
 }
 
@@ -487,10 +488,10 @@
     top: 270px;
     left: 68%;
     transform: translateX(-50%);
-    color: rgb(255, 255, 255); /* Change as needed to contrast with the image */
-    background-color: rgba(247, 177, 0, 0.896); /* Optional: Adds a semi-transparent background for better readability */
-    padding: 10px 30px; /* Optional: Adds some padding */
-    border-radius: 10px; /* Optional: Adds rounded corners */
+    color: rgb(255, 255, 255);
+    background-color: rgba(247, 177, 0, 0.896);
+    padding: 10px 30px;
+    border-radius: 10px;
     font-size: 1px;
 }
 
@@ -509,7 +510,7 @@
     color: #6457f5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*
 .hero4-bg {
     display: flex;
     justify-content: center;
@@ -535,34 +536,34 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+*/
 .hero4-card {
     position: absolute;
     top: 2780px;
-    border: 2px solid #000000; /* Optional: adds a border */
+    border: 2px solid #000000;
     border-radius: 10px;
     border-color: #ffffff;
-    box-shadow: 0 4px 8px rgb(11, 11, 11); /* Optional: adds a subtle shadow */
+    box-shadow: 0 4px 8px rgb(11, 11, 11);
     background: linear-gradient(90deg, rgba(248,251,255,1) 11%, rgba(206,217,237,1) 59%, rgba(255,255,255,1) 100%);
     width: 650px;
     height: 270px;
     left: 300px;
-    display: flex; /* Use flexbox to layout the content */
-    align-items: center; /* Center items vertically */
-    overflow: hidden; /* Ensures no overflow */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .hero4-pfp {
-    width: 220px; /* Adjust as needed for the desired width */
-    height: 100%; /* Make it fit the height of the container */
-    overflow: hidden; /* Ensure the image doesn't overflow the container */
-    flex-shrink: 0; /* Prevent the image container from shrinking */
+    width: 220px;
+    height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .hero4-pfp img {
-    width: 100%; /* Make the image fit the width of the container */
-    height: 140%; /* Make the image fit the height of the container */
-    object-fit: cover; /* Ensure the image covers the entire area */
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
 }
 
 .hero4-info {
@@ -579,37 +580,37 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: #000000;
-    margin: -5px 0; /* Adds some space between each line of text */
+    margin: -5px 0;
 }
 
 .hero4-info2 {
     display: flex;
     padding-left: 20px;
     padding-top: 50px;
-    gap: 0px; /* Adjust the gap as needed */
+    gap: 0px;
 }
 
 .hero4-info2 h2 {
     font-size: 17px;
     font-weight: bold;
-    border: 2px solid #000; /* Thin border */
-    padding: 12px 15px; /* Add some padding inside the border */
-    margin: 0; /* Remove default margin */
+    border: 2px solid #000;
+    padding: 12px 15px;
+    margin: 0;
 }
 
 .hero4-info3 {
     display: flex;
     padding-left: 20px;
     padding-top: 10px;
-    gap: 0px; /* Adjust the gap as needed */
+    gap: 0px;
 }
 
 .hero4-info3 h2 {
     font-size: 17px;
     font-weight: bold;
-    border: 2px solid #000; /* Thin border */
-    padding: 12px 15px; /* Add some padding inside the border */
-    margin: 0; /* Remove default margin */
+    border: 2px solid #000;
+    padding: 12px 15px;
+    margin: 0;
 }
 
 .line-4 h2{
@@ -638,7 +639,7 @@
     color: #e65963;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*
 .hero5-bg {
     display: flex;
     justify-content: center;
@@ -664,16 +665,16 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+*/
 .hero5-card {
     position: absolute;
     top: 3350px;
     left: 450px;
     padding: 20px;
-    border: 5px solid #000000; /* Optional: adds a border */
-    border-radius: 30px; /* Optional: adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
-    background-color: rgb(255, 255, 255); /* Semi-transparent white background */
+    border: 5px solid #000000;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
     width: 310px;
     height: 460px;
 }
@@ -691,15 +692,15 @@
     top: 440px;
     left: 50%;
     transform: translateX(-50%);
-    color: rgb(255, 255, 255); /* Change as needed to contrast with the image */
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.896);
-    border-radius: 12px; /* Optional: Adds rounded corners */
+    border-radius: 12px;
     font-size: 30px;
     width: 350px;
     height: 60px;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero5-title2 {
@@ -707,9 +708,9 @@
     top: 10px;
     left: 65%;
     transform: translateX(-50%);
-    color: rgb(0, 0, 0); /* Change as needed to contrast with the image */
+    color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    border-radius: 5px; /* Optional: Adds rounded corners */
+    border-radius: 5px;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 230px;
@@ -751,11 +752,3 @@
     width: 350px;
     border-radius: 25px;
 }
-
-
-
-
-
-
-
-
