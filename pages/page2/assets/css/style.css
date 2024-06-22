@@ -13,15 +13,15 @@
 
 .header nav {
     display: flex;
-    justify-content: flex-end; /* Center the nav links */
+    justify-content: flex-end;
 }
 
 
 .header nav a {
-    color: #fff; /* Set the color of the nav links to white */
-    text-decoration: none; /* Remove underline from links */
-    margin: 0 15px; /* Add spacing between the nav links */
-    font-size: 25px; /* Set the font size of the nav links */
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
 }
 
 .header nav a:hover {
