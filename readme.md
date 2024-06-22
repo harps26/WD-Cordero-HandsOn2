@@ -9,11 +9,11 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">HANDS ON 2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  HERO & CARDS
 </div>
 
 <br />
@@ -57,20 +57,36 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+What is the project?
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project is a website featuring 5 different hero designs, each represented by a static card and an animated card. These designs are unique in their visual presentation and animation styles, showcasing various fictional heroes or characters.
+
+What's the purpose?
+
+The purpose of the website is to highlight creativity in design and animation using HTML and CSS only. It serves as a showcase of skills in web development, particularly in creating visually appealing and interactive elements solely through front-end technologies.
+
+Key Components
+
+- Hero Designs: Each hero has a distinct visual design, portraying their unique characteristics and attributes.
+- Static Cards: Static cards provide a snapshot of each hero's design, including their name, a brief description, and an image.
+- Animated Cards: Animated cards showcase dynamic animations related to each hero, enhancing user engagement and visual appeal.
+- Navigation: Navigation elements allow users to explore different heroes and their respective static and animated cards.
+- Responsive Design: The website is responsive to ensure usability across various devices and screen sizes.
+
+Technology Used and How It is Used
+
+- HTML: Used for structuring the content of the website, including headings, paragraphs, images, and links.
+- CSS: Used for styling the website, including layout, colors, fonts, animations, and responsive design techniques.
+
+Specific Uses of Technology:
+- Selectors and Styling: CSS selectors are used to target HTML elements and apply styles such as colors, fonts, margins, paddings, and borders to create visually appealing hero cards.
+- Animations: CSS animations and transitions are employed to animate elements such as hover effects on hero cards, creating a more dynamic user experience.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website: Consists of multiple HTML pages, each dedicated to different heroes or sections. Navigation typically includes links to different pages.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
