@@ -7,39 +7,34 @@
 
 .header {
     width: 100%;
-    background-color: rgb(221, 171, 171); /* Make the header red */
+    background-color: rgb(221, 171, 171);
     padding: 10px 0;
-    box-shadow: none; /* Remove any box shadow if there is one */
+    box-shadow: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Apply styles to the navigation */
 .header nav {
     display: flex;
-    justify-content: flex-end; /* Center the nav links */
+    justify-content: flex-end;
 }
 
-/* Apply styles to the navigation links */
 .header nav a {
-    color: #fff; /* Set the color of the nav links to white */
-    text-decoration: none; /* Remove underline from links */
-    margin: 0 15px; /* Add spacing between the nav links */
-    font-size: 25px; /* Set the font size of the nav links */
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
 }
 
 .header nav a:hover {
-    color: #ffcccb; /* Change color on hover to a lighter red */
+    color: #ffcccb;
 }
 
 
 .header-page {
     padding: 20px;
     text-align: center;
-    
     & h1, h2 {
         font-family: 'Libre Baskerville', serif;
-       
-
-
     }
 }
 
@@ -816,16 +811,16 @@ h3 {
 }
 
 .hero2-card-an.duplicate {
-    transform: rotateY(-180deg); /* Initially hide the duplicate card behind */
-    z-index: -1; /* Push it behind the original card */
+    transform: rotateY(-180deg);
+    z-index: -1;
 }
 
 .hero2-card-container:hover .hero2-card-an {
-    transform: rotateY(180deg); /* Tilt the original card forward on hover */
+    transform: rotateY(180deg);
 }
 
 .hero2-card-container:hover .hero2-card-an.duplicate {
-    transform: rotateY(0); /* Rotate the duplicate card to be visible */
+    transform: rotateY(0);
 }
 
 .hero2-pfp-an {
@@ -852,7 +847,7 @@ h3 {
     align-items: center;
     color: rgb(190, 17, 17);
     font-size: 2em;
-    transform-style: preserve-3d; /* Ensure child elements respect 3D transformations */
+    transform-style: preserve-3d;
 }
 
 .numba1-an, .numba4-an {
@@ -1093,7 +1088,7 @@ h3 {
 .hero4-card-an {
     position: relative;
     z-index: 1;
-    transform: rotate(-5deg); /* Initial tilt */
+    transform: rotate(-5deg);
     border: 2px solid #000000;
     border-radius: 10px;
     border-color: #ffffff;
@@ -1108,7 +1103,7 @@ h3 {
 }
 
 .hero4-card-an:hover {
-    animation: tilt-animation 0.7s infinite alternate; /* Run the animation continuously */
+    animation: tilt-animation 0.7s infinite alternate;
 }
 
 @keyframes tilt-animation {
@@ -1203,7 +1198,7 @@ h3 {
     width: 360px;
     height: 510px;
     margin-top: 5%;
-    overflow: hidden; /* Ensure the overlay stays within the card */
+    overflow: hidden;
 }
 
 .hero5-card-an::before {
@@ -1213,7 +1208,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Overlay color */
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     display: flex;
     justify-content: center;
@@ -1221,14 +1216,13 @@ h3 {
     font-size: 24px;
     opacity: 0;
     transition: opacity 0.3s ease;
-    z-index: 2; /* Ensure overlay is above card content */
+    z-index: 2;
 }
 
 .hero5-card-an:hover::before {
     opacity: 1;
 }
 
-/* Other styles remain the same */
 .hero5-pfp-an img {
     width: 260px;
     height: 450px;

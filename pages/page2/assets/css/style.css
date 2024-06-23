@@ -6,9 +6,10 @@
 .header {
     width: 100%;
     background-color: transparent;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 50px;
     box-shadow: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header nav {
@@ -32,35 +33,35 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('../../../../assets/img/hero2_bg.jpg'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire page */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Ensures the background image stays fixed during scroll */
-    font-family: 'Arial', sans-serif; /* Optional: Set a default font family */
+    background-image: url('../../../../assets/img/hero2_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
 }
 
 .hero2-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    width: 80%; /* Adjust width as needed */
-    height: 80vh; /* Adjust height as needed */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    overflow: hidden; /* Ensure content doesn't overflow */
-    margin: 20px auto; /* Auto margin horizontally, 20px top and bottom */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
 }
 
 .hero2-container {
     display: flex;
-    width: 80%; /* Adjust width as needed */
-    height: 80vh; /* Adjust height as needed */
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    overflow: hidden; /* Ensure content doesn't overflow */
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .hero2, .content {
@@ -79,12 +80,12 @@ body {
 }
 
 .content img {
-    width: 150px; /* Set width to desired size */
-    height: 150px; /* Set height to the same value to make it circular */
+    width: 150px;
+    height: 150px;
     margin-bottom: 80%;
     margin-left: 65%;
-    border-radius: 50%; /* Make the image circular */
-    object-fit: cover; /* Ensure the image covers the entire circular area */
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .content h1 {
@@ -113,36 +114,36 @@ body {
     line-height: 1.4;
     text-align: justify;
     color: #666;
-    margin: 0 auto; /* Center the element horizontally */
+    margin: 0 auto;
 }
 
 .card1 {
     position: absolute;
-    bottom: -250px; /* Adjust as needed to position the image from the bottom */
-    right: 230px; /* Adjust as needed to position the image from the right */
-    width: 150px; /* Adjust the width of the image */
-    transform: rotate(-20deg); /* Tilt the image by 10 degrees counterclockwise */
+    bottom: -250px;
+    right: 230px;
+    width: 150px;
+    transform: rotate(-20deg);
 }
 
 .card1 img {
     display: block;
-    width: 500px; /* Ensure the image fills the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 500px;
+    height: auto;
 }
 
 .card2 {
     position: fixed;
-    top: -300px; /* Adjust as needed to position the image from the top */
-    left: 200px; /* Adjust as needed to position the image from the left */
-    width: 150px; /* Adjust the width of the image */
+    top: -300px;
+    left: 200px;
+    width: 150px;
     transform: rotate(150deg);
     z-index: -1;
 }
 
 .card2 img {
     display: block;
-    width: 320%; /* Ensure the image fills the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 320%;
+    height: auto;
 }
 
 .icon1 {
@@ -152,14 +153,14 @@ body {
     transform: translate(-50%, -50%);
     width: 100px;
     height: auto;
-    border-radius: 50%; /* Turns the element into a circle */
-    overflow: hidden; /* Ensures the image doesn't overflow */
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .icon1 img {
     display: block;
-    width: 100%; /* Ensure the image fills the circle */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
 }
 
 .icon2 {
@@ -168,13 +169,13 @@ body {
     left: 60%;
     width: 100px;
     height: auto;
-    border-radius: 50%; /* Turns the element into a circle */
+    border-radius: 50%;
     overflow: hidden;
     transform: rotate(180deg);
 }
 
 .icon2 img {
     display: block;
-    width: 100%; /* Ensure the image fills the circle */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
 }
